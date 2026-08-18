@@ -33,6 +33,18 @@ function parseSqlValue(raw) {
   return value;
 }
 
+function literalBikeIds(whereClause) {
+  const match = String(whereClause ?? '').trim().match(/^m\.id\s+in\s*\(([\s\S]*)\)$/iu);
+  if (!match) return null;
+  const rawIds = splitTopLevel(match[1]);
+  if (rawIds.length === 0) throw new Error('bike_catalog_component_fitments SELECT must list literal bike ids');
+  const ids = rawIds.map(parseSqlValue);
+  if (ids.some((id) => typeof id !== 'string' || !id.trim() || /^(?:select\b|m\.|case\b)/iu.test(id.trim()))) {
+    throw new Error('bike_catalog_component_fitments SELECT must list literal bike ids');
+  }
+  return [...new Set(ids)];
+}
+
 function whereValue(whereClause, column, numeric = false) {
   const pattern = numeric
     ? new RegExp(`\\bm\\.${column}\\s*=\\s*(\\d+)\\b`, 'iu')
@@ -53,6 +65,20 @@ export function parseBikeFitmentSelectRows(sql) {
     if (bikeIndex < 0 || !/^m\.id$/iu.test(values[bikeIndex].trim())) {
       throw new Error('bike_catalog_component_fitments SELECT must bind bike_id from m.id');
     }
+    const row = {};
+    for (let index = 0; index < columns.length; index += 1) {
+      if (index === bikeIndex) continue;
+      const parsed = parseSqlValue(values[index]);
+      if (typeof parsed === 'string' && /^(?:m\.|select\b|case\b)/iu.test(parsed)) {
+        throw new Error(`unsupported fitment SELECT expression for ${columns[index]}: ${values[index]}`);
+      }
+      row[columns[index]] = parsed;
+    }
+    const bikeIds = literalBikeIds(match[3]);
+    if (bikeIds) {
+      for (const bike_id of bikeIds) rows.push({ bike_id, row: { ...row } });
+      continue;
+    }
     const identity = {
       brand: whereValue(match[3], 'brand'),
       model: whereValue(match[3], 'model'),
@@ -62,15 +88,6 @@ export function parseBikeFitmentSelectRows(sql) {
     };
     if (!identity.brand || !identity.model || !Number.isInteger(identity.model_year)) {
       throw new Error(`bike_catalog_component_fitments SELECT must constrain exact brand/model/model_year: ${match[3].trim()}`);
-    }
-    const row = {};
-    for (let index = 0; index < columns.length; index += 1) {
-      if (index === bikeIndex) continue;
-      const parsed = parseSqlValue(values[index]);
-      if (typeof parsed === 'string' && /^(?:m\.|select\b|case\b)/iu.test(parsed)) {
-        throw new Error(`unsupported fitment SELECT expression for ${columns[index]}: ${values[index]}`);
-      }
-      row[columns[index]] = parsed;
     }
     rows.push({ identity, row });
   }

@@ -25,6 +25,40 @@ test('parses exact identity-bound factory fitment SELECT', () => {
   }]);
 });
 
+test('parses a finite literal bike-id list without broadening catalog identity', () => {
+  const sql = `
+    insert into public.bike_catalog_component_fitments
+      (bike_id, component_id, fitment_type, evidence_url, evidence_checked_at, notes)
+    select m.id, 'oem-format-rd', 'factory_installed', 'https://www.format.bike/bike/example/', '2026-08-17', 'Exact product evidence.'
+    from public.bike_catalog_models m
+    where m.id in ('format-a-2026-ru', 'format-b-2025-ru')
+    on conflict (bike_id, component_id, fitment_type) do nothing;
+  `;
+  const rows = parseBikeFitmentSelectRows(sql);
+  assert.deepEqual(rows, [
+    {
+      bike_id: 'format-a-2026-ru',
+      row: {
+        component_id: 'oem-format-rd',
+        fitment_type: 'factory_installed',
+        evidence_url: 'https://www.format.bike/bike/example/',
+        evidence_checked_at: '2026-08-17',
+        notes: 'Exact product evidence.',
+      },
+    },
+    {
+      bike_id: 'format-b-2025-ru',
+      row: {
+        component_id: 'oem-format-rd',
+        fitment_type: 'factory_installed',
+        evidence_url: 'https://www.format.bike/bike/example/',
+        evidence_checked_at: '2026-08-17',
+        notes: 'Exact product evidence.',
+      },
+    },
+  ]);
+});
+
 test('fails closed when bike identity is not exact', () => {
   const sql = `
     insert into public.bike_catalog_component_fitments (bike_id, component_id, fitment_type)
@@ -34,6 +68,17 @@ test('fails closed when bike identity is not exact', () => {
     on conflict (bike_id, component_id, fitment_type) do nothing;
   `;
   assert.throws(() => parseBikeFitmentSelectRows(sql), /exact brand\/model\/model_year/i);
+});
+
+test('fails closed on non-literal bike-id selectors', () => {
+  const sql = `
+    insert into public.bike_catalog_component_fitments (bike_id, component_id, fitment_type)
+    select m.id, 'part', 'factory_installed'
+    from public.bike_catalog_models m
+    where m.id in (select bike_id from public.some_other_table)
+    on conflict (bike_id, component_id, fitment_type) do nothing;
+  `;
+  assert.throws(() => parseBikeFitmentSelectRows(sql), /exact brand\/model\/model_year|literal bike ids/i);
 });
 
 test('fails closed on computed SELECT expressions instead of guessing', () => {

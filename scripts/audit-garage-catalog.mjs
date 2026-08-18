@@ -4,6 +4,7 @@ import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 import { expandFitmentEvidenceDiagnosticsSource } from './garage-fitment-audit-diagnostics-expansion.mjs';
+import { expandFitmentLiteralIdCoverageSource } from './garage-fitment-select-id-expansion.mjs';
 import { expandExactMediaProvenanceSource } from './garage-media-audit-expansion.mjs';
 import { expandSpecEvidenceCoverageSource } from './garage-spec-audit-expansion.mjs';
 import {
@@ -31,7 +32,8 @@ const withTrustedMediaCoverage = expandTrustedMediaCoverageSource(withLateWaves)
 const withExactMediaProvenance = expandExactMediaProvenanceSource(withTrustedMediaCoverage);
 const withTrustedSpecEvidence = expandSpecEvidenceCoverageSource(withExactMediaProvenance);
 const withFitmentSelectCoverage = expandFitmentSelectCoverageSource(withTrustedSpecEvidence);
-const withTrustedFitmentCoverage = expandTrustedFitmentCoverageSource(withFitmentSelectCoverage);
+const withFitmentLiteralIds = expandFitmentLiteralIdCoverageSource(withFitmentSelectCoverage);
+const withTrustedFitmentCoverage = expandTrustedFitmentCoverageSource(withFitmentLiteralIds);
 const withFitmentDiagnostics = expandFitmentEvidenceDiagnosticsSource(withTrustedFitmentCoverage);
 const withRecommendationCoverage = expandRecommendationCoverageSource(withFitmentDiagnostics);
 const expandedSource = enforceGarageFullCoverageSource(withRecommendationCoverage);
