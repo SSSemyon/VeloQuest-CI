@@ -1,0 +1,158 @@
+name: Bootstrap clean VeloQuest snapshot and close Garage
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veloquest-public-garage-closure
+  cancel-in-progress: true
+
+jobs:
+  bootstrap-and-close:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      CI: '1'
+      EXPO_NO_TELEMETRY: '1'
+      GARAGE_CLOSURE_BRANCH: main
+      GARAGE_CLOSURE_MAX_PASSES: '12'
+      SOURCE_REPO: SSSemyon/VeloQuest
+      SOURCE_REF: agent/release-closure-0.8.9
+      EXPECTED_SOURCE_SHA: 67bcf70f755ae183261ae269c902dc58cc5ff824
+    steps:
+      - name: Checkout public CI repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: public
+
+      - name: Checkout private canonical snapshot read-only
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          ref: ${{ env.SOURCE_REF }}
+          token: ${{ secrets.SOURCE_REPO_TOKEN }}
+          persist-credentials: false
+          fetch-depth: 1
+          path: source
+
+      - name: Verify exact private source head
+        shell: bash
+        working-directory: source
+        run: |
+          set -euo pipefail
+          ACTUAL_SHA="$(git rev-parse HEAD)"
+          echo "source_sha=$ACTUAL_SHA"
+          test "$ACTUAL_SHA" = "$EXPECTED_SOURCE_SHA"
+
+      - name: Fail closed on credential material before publication
+        shell: bash
+        working-directory: source
+        run: |
+          set -euo pipefail
+          if find . -type f \
+            \( -name '.env' -o -name '.env.*' -o -name '*.pem' -o -name '*.key' -o -name '*.p8' -o -name '*.p12' -o -name '*.jks' -o -name '*.mobileprovision' \) \
+            -not -path './.git/*' -print -quit | grep -q .; then
+            echo 'Sensitive credential/signing file detected; refusing public snapshot.' >&2
+            exit 1
+          fi
+          python3 - <<'PY'
+          import pathlib, re, sys
+          root = pathlib.Path('.')
+          patterns = {
+              'Supabase secret key': re.compile(r'sb_secret_[A-Za-z0-9_-]{12,}'),
+              'GitHub token': re.compile(r'gh[opsu]_[A-Za-z0-9]{20,}'),
+              'OpenAI key': re.compile(r'sk-(?:proj-)?[A-Za-z0-9_-]{20,}'),
+              'Google API key': re.compile(r'AIza[0-9A-Za-z_-]{30,}'),
+              'JWT-like secret': re.compile(r'eyJ[A-Za-z0-9_-]{20,}\.eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}'),
+              'Private key block': re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----'),
+              'Assigned backend secret': re.compile(r'(?:SUPABASE_SERVICE_ROLE_KEY|STRAVA_CLIENT_SECRET|VK_BRIDGE_ENCRYPTION_KEY|RIDE_CONNECTOR_ATTESTATION_KEY|EXPO_TOKEN)\s*=\s*[\'\"][^\'\"]{12,}[\'\"]'),
+          }
+          skip = {'.git', 'node_modules', 'dist', 'build', 'DerivedData'}
+          findings = []
+          for path in root.rglob('*'):
+              if not path.is_file() or any(part in skip for part in path.parts):
+                  continue
+              try:
+                  text = path.read_text('utf-8')
+              except Exception:
+                  continue
+              for label, pattern in patterns.items():
+                  if pattern.search(text):
+                      findings.append(f'{path}: {label}')
+          if findings:
+              print('Potential committed secrets detected:', file=sys.stderr)
+              print('\n'.join(findings), file=sys.stderr)
+              sys.exit(1)
+          print('Pre-public snapshot secret scan: PASS')
+          PY
+
+      - name: Replace public working tree with clean snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp public/.github/workflows/bootstrap-garage-closure.yml /tmp/bootstrap-garage-closure.yml
+          find public -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          rsync -a --exclude='.git' source/ public/
+          mkdir -p public/.github/workflows
+          cp /tmp/bootstrap-garage-closure.yml public/.github/workflows/bootstrap-garage-closure.yml
+
+      - name: Commit clean public snapshot without private history
+        shell: bash
+        working-directory: public
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "ci: import verified VeloQuest snapshot ${EXPECTED_SOURCE_SHA}"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin HEAD:main
+
+      - name: Install locked dependencies
+        working-directory: public
+        run: npm ci
+
+      - name: Run bounded fail-closed Garage closure loop
+        working-directory: public
+        shell: bash
+        run: bash scripts/run-garage-closure-loop.sh
+
+      - name: Re-sync final public head
+        working-directory: public
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git reset --hard origin/main
+          echo "final_public_sha=$(git rev-parse HEAD)"
+
+      - name: Enforce 718 of 718 on all Garage metrics
+        working-directory: public
+        run: npm run check:garage:maximum
+
+      - name: Verify full release source contracts
+        working-directory: public
+        run: npm run check:release
+
+      - name: Start local Supabase
+        working-directory: public
+        run: npx --yes supabase@2.113.0 start
+
+      - name: Clean replay all committed migrations
+        working-directory: public
+        run: npx --yes supabase@2.113.0 db reset --local
+
+      - name: Verify database contracts
+        working-directory: public
+        run: npx --yes supabase@2.113.0 test db
+
+      - name: Stop local Supabase
+        if: always()
+        working-directory: public
+        run: npx --yes supabase@2.113.0 stop --no-backup
