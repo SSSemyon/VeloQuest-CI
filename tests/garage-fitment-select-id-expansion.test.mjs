@@ -19,6 +19,13 @@ test('upgrades reconstructed fitment SELECTs to exact literal bike-id or exact i
   assert.match(expanded, /fitment SELECT bike selector is not present in catalog/);
 });
 
+test('resolves only declared evidence_url model binding from the exact selected model', () => {
+  const expanded = expandFitmentLiteralIdCoverageSource(legacy);
+  assert.match(expanded, /selected\.model_columns\?\.evidence_url === 'manufacturer_url'/);
+  assert.match(expanded, /row\.evidence_url = modelsById\.get\(bikeId\)\.manufacturer_url/);
+  assert.match(expanded, /unsupported fitment model-column binding/);
+});
+
 test('exact-id fitment SELECT expansion is idempotent', () => {
   const once = expandFitmentLiteralIdCoverageSource(legacy);
   const twice = expandFitmentLiteralIdCoverageSource(once);

@@ -66,17 +66,24 @@ export function parseBikeFitmentSelectRows(sql) {
       throw new Error('bike_catalog_component_fitments SELECT must bind bike_id from m.id');
     }
     const row = {};
+    const model_columns = {};
     for (let index = 0; index < columns.length; index += 1) {
       if (index === bikeIndex) continue;
-      const parsed = parseSqlValue(values[index]);
+      const expression = values[index].trim();
+      if (columns[index] === 'evidence_url' && /^m\.manufacturer_url$/iu.test(expression)) {
+        model_columns.evidence_url = 'manufacturer_url';
+        continue;
+      }
+      const parsed = parseSqlValue(expression);
       if (typeof parsed === 'string' && /^(?:m\.|select\b|case\b)/iu.test(parsed)) {
         throw new Error(`unsupported fitment SELECT expression for ${columns[index]}: ${values[index]}`);
       }
       row[columns[index]] = parsed;
     }
+    const addMetadata = (selected) => Object.keys(model_columns).length > 0 ? { ...selected, model_columns: { ...model_columns } } : selected;
     const bikeIds = literalBikeIds(match[3]);
     if (bikeIds) {
-      for (const bike_id of bikeIds) rows.push({ bike_id, row: { ...row } });
+      for (const bike_id of bikeIds) rows.push(addMetadata({ bike_id, row: { ...row } }));
       continue;
     }
     const identity = {
@@ -89,7 +96,7 @@ export function parseBikeFitmentSelectRows(sql) {
     if (!identity.brand || !identity.model || !Number.isInteger(identity.model_year)) {
       throw new Error(`bike_catalog_component_fitments SELECT must constrain exact brand/model/model_year: ${match[3].trim()}`);
     }
-    rows.push({ identity, row });
+    rows.push(addMetadata({ identity, row }));
   }
   return rows;
 }

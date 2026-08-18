@@ -12,7 +12,10 @@ const EXACT_ID_BLOCK = [
   '    const bikeId = selected.bike_id ?? modelIdentity.get(identity(selected.identity));',
   '    const selector = selected.bike_id ?? identity(selected.identity);',
   '    if (!bikeId || !modelsById.has(bikeId)) throw new Error(`${file}: fitment SELECT bike selector is not present in catalog: ${selector}`);',
+  "    const modelColumnBindings = Object.entries(selected.model_columns ?? {});",
+  "    if (modelColumnBindings.some(([column, modelColumn]) => column !== 'evidence_url' || modelColumn !== 'manufacturer_url')) throw new Error(`${file}: unsupported fitment model-column binding for ${selector}`);",
   '    const row = { bike_id: bikeId, ...selected.row };',
+  "    if (selected.model_columns?.evidence_url === 'manufacturer_url') row.evidence_url = modelsById.get(bikeId).manufacturer_url;",
   '    fitmentsByKey.set(`${row.bike_id}|${row.component_id}|${row.fitment_type}`, row);',
   '  }',
 ].join('\n');
