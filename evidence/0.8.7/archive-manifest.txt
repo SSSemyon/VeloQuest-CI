@@ -1,0 +1,20 @@
+VeloQuest 0.8.7 Device Candidate RC
+Created: 2026-08-14
+Base: VeloQuest-mobile-alpha-0.8.6-production-parity-catchup-rc.zip
+Base SHA-256: 272baa104cf432902a0dadd6737aa21c167959e8d621854afdc7c44e666be3c7
+
+Included release state:
+- application version 0.8.7, iOS build 7, Android versionCode 7
+- generated iOS native project for CocoaPods/Xcode installation
+- 718 catalogue models across 44 brands
+- 55 Hagen model-year identities across six official product families
+- six deterministic Supabase migrations
+
+Excluded from the archive:
+- node_modules and package-manager caches
+- CocoaPods, build output and DerivedData
+- Expo export/cache output
+- local environment files, signing material and Xcode user data
+
+Production status: HOLD; no production mutation was performed.
+Physical-device E2E status: pending on user-owned hardware.

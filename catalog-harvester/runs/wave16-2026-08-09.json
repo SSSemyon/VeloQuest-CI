@@ -1,0 +1,40 @@
+{
+  "wave": 16,
+  "date": "2026-08-09",
+  "batch": "catalog-harvester/batches/wave16.json",
+  "batch_sha256": "6bd7333cd762fc366b659d8765c7e079c372645d3baf8f29f9cff1d62f338e65",
+  "input_models": 70,
+  "chunks": [70],
+  "preflight": {
+    "enabled_models": 593,
+    "enabled_brands": 40,
+    "pre_2020": 0,
+    "database_size": "13 MB"
+  },
+  "post_import": {
+    "enabled_models": 663,
+    "enabled_brands": 43,
+    "pre_2020": 0,
+    "duplicate_identities": 0,
+    "database_size": "13 MB",
+    "database_bytes": 13282451,
+    "enabled_components": 41,
+    "compatibility_rules": 14,
+    "bike_component_fitments": 50,
+    "enabled_images": 13,
+    "models_with_wheel_size": 69,
+    "models_with_drivetrain": 148,
+    "models_with_brakes": 65,
+    "models_with_suspension": 59,
+    "strict_full_component_set": 34,
+    "security_advisor_lints": 0,
+    "catalog_search_smoke": "passed"
+  },
+  "new_brand_model_counts": {
+    "GHOST": 50,
+    "ROSE": 17,
+    "Lapierre": 3
+  },
+  "component_enrichment": "supabase/schema/catalog_enrichment_wave_16_lapierre_cues_2026_08_09.sql",
+  "performance_migration": "supabase/schema/catalog_performance_indexes_wave_16_2026_08_09.sql"
+}

@@ -1,0 +1,3025 @@
+{
+  "wave": 15,
+  "generated_at": "2026-08-09",
+  "models": [
+    {
+      "brand": "Specialized",
+      "model": "Crux Expert - SRAM Rival XPLR AXS",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM Rival XPLR AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Crux Pro - SRAM Force XPLR AXS",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM Force XPLR AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 LTD - Red Bull 2025 TdF",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo 4 Pro",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Epic 8 EVO - Shimano XTR Di2, FOX Factory",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "Shimano XTR Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Turbo Levo 4",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo 4 Expert",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo 4 Comp",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Turbo Levo 4 Frameset",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Epic 8 Expert - Shimano XT Di2, RockShox Select+",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "Shimano XT Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Epic 8 Expert - SRAM GX AXS, RockShox Select+",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM GX AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Epic 8 - SRAM XX SL AXS, RockShox Ultimate Flight Attendant",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM XX SL AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Epic 8 Pro - SRAM X0 AXS, RockShox Ultimate Flight Attendant",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM X0 AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo SL 2 Expert Di2",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Frameset - FACT 12r Carbon",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Epic 8 Comp - SRAM S-1000 AXS, RockShox Select",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM S-1000 AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Epic 8 EVO - SRAM XX SL AXS, RockShox Ultimate",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM XX SL AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Epic 8 Pro EVO Frameset - FOX FLOAT Factory",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Crux Comp - Shimano GRX",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "Shimano GRX",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 - SRAM RED AXS",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM RED AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 - Shimano Dura-Ace Di2",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "Shimano Dura-Ace Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Crux Frameset - FACT 10r Carbon",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Crux Frameset - FACT 12r Carbon",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Diverge 4 Pro LTD - SRAM RED XPLR",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM RED XPLR",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Frameset LTD - Yoon Hyup",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Frameset LTD - Lucas Beaufort",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Frameset LTD - Parra",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Crux - SRAM RED XPLR",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026",
+        "drivetrain": "SRAM RED XPLR",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Frameset LTD - Demi Dreaming",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2026"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Epic 8 EVO Expert - SRAM GX AXS, FOX Performance Elite",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM GX AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Roubaix SL8 Pro - Shimano Ultegra Di2",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano Ultegra Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Diverge Comp Carbon - SRAM Apex eTAP AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM Apex eTAP AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Aethos Frameset - FACT 12r Carbon",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Allez Sprint Frameset - D'Aluisio Smartweld Alloy",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 - Shimano Dura-Ace Di2",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano Dura-Ace Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Tarmac SL8 Expert - Shimano Ultegra Di2",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano Ultegra Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Diverge Expert Carbon - SRAM Rival eTAP AXS / GX Eagle AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM Rival eTAP AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Tarmac SL8 Pro - SRAM Force eTAP AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM Force eTAP AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Diverge E5 - Shimano Claris",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano Claris",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Chisel Hardtail Comp",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Diverge E5 Elite - Shimano GRX",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano GRX",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Stumpjumper 15 Frameset - FOX FLOAT GENIE Factory",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 LTD - Forward 50 Collection",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Crux - SRAM RED XPLR",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM RED XPLR",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Crux Pro - SRAM Force XPLR eTAP AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Crux Frameset - FACT 12r Carbon",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Tero 4.0",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Diverge Sport Carbon - Shimano GRX",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano GRX",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Frameset - Ready to Paint",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Tarmac SL7 Comp - Shimano 105 Di2",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano 105 Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Frameset - FACT 12r Carbon",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo 3 Comp Carbon",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Crux DSW Frameset - D'Aluisio Smartweld Alloy",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Crux DSW Comp - SRAM Apex XPLR",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM Apex XPLR",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo 3",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Tarmac SL8 Pro - Shimano Ultegra Di2",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano Ultegra Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 LTD - SRAM RED AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM RED AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Aethos LTD - SRAM RED AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM RED AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 - SRAM RED AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM RED AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Tarmac SL8 Expert - SRAM Rival eTAP AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM Rival eTAP AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Diverge Comp E5 - SRAM Apex",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM Apex",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Epic 8 EVO Comp - SRAM S-1000 AXS, FOX Performance",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM S-1000 AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Epic 8 Comp - SRAM S-1000 AXS, RockShox Select",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM S-1000 AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Tarmac SL7 Sport - Shimano 105",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano 105",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Chisel Comp Shimano",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Vado 4.0",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo SL 2 Comp",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Turbo Levo SL 2",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo SL 2 Comp Alloy",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo SL 2 Pro",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo SL 2 Öhlins Coil",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Levo SL 2 Expert",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Tero 4.0 Step-Through",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Roubaix SL8 - Shimano Tiagra",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano Tiagra",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Crux Comp - Shimano GRX",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano GRX",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Crux Expert - SRAM Rival XPLR eTAP AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Stumpjumper 15 LTD - FOX DHX Live Valve Neo",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Roubaix SL8 Comp - Shimano 105 Di2",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "Shimano 105 Di2",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Kenevo SL 2 Expert",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Roubaix SL8 Expert - SRAM Rival eTAP AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025",
+        "drivetrain": "SRAM Rival eTAP AXS",
+        "drivetrain_title_evidence": true
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Turbo Levo SL 2 LTD - FOX DHX Live Valve Neo",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Team Frameset - FDJ - SUEZ",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 LTD - Remco's Golden Season",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Turbo Creo 2 - SRAM RED / XX1 Eagle AXS",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Sirrus X 5.0",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "fitness",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Vado 4.0 Step-Through",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "Turbo Tero 4.0 EQ",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Team Frameset - Soudal Quick-Step",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Specialized",
+      "model": "S-Works Tarmac SL8 Team Frameset - Red Bull - BORA - hansgrohe",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://www.specialized.com/gb/en/bike-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Specialized Bike Archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Blizzard Carbon 30",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Growler 20",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Powerplay Alloy 70",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Lyrik Select",
+        "rear_shock": "RockShox Super Deluxe Select+",
+        "drivetrain": "Shimano XT"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Powerplay Alloy 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Revelation Select RC",
+        "rear_shock": "RockShox Deluxe Select+",
+        "drivetrain": "Shimano SLX"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Blizzard Powerplay Alloy 30",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "drivetrain": "MicroShift Advent X 10-speed",
+        "brakes": "SRAM Level 2-piston"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Flow",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Blizzard Carbon 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Solo Carbon 70",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Slayer Carbon 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Slayer Alloy 30",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Reaper Powerplay 24",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Reba R 120 mm",
+        "brakes": "Tektro HD-J285",
+        "dropper_post": "X-Fusion Manic Composite"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Powerplay Carbon 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Lyrik Select",
+        "rear_shock": "RockShox Deluxe Select+",
+        "drivetrain": "Shimano SLX"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Alloy 30",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox 35 Gold RL",
+        "rear_shock": "RockShox Deluxe Select RT",
+        "drivetrain": "Shimano Deore"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Element Carbon 70",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Soul 10",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Slayer Carbon 70",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Carbon 30",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "Marzocchi Z2 Rail",
+        "rear_shock": "Fox Float DPS Performance",
+        "drivetrain": "Shimano Deore"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Alloy 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "Fox 36 GRIP Performance",
+        "rear_shock": "Fox Float X Performance",
+        "drivetrain": "Shimano XT"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Growler 40",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Fusion Powerplay 10",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Flow Jr 24",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Blizzard Powerplay Alloy 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "drivetrain": "SRAM GX Eagle",
+        "brakes": "SRAM G2 R 4-piston"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Altitude Alloy 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "Fox 38 Float EVOL GRIP",
+        "rear_shock": "Fox Float X Performance",
+        "drivetrain": "Shimano SLX",
+        "brakes": "Shimano SLX Trail 4-piston"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Soul 20",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Solo Carbon 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "drivetrain": "SRAM Apex XPLR AXS"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Solo Alloy 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "drivetrain": "SRAM Apex 1x12"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Solo Alloy 30",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "drivetrain": "SRAM Apex 1x11"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Slayer Carbon 90",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Slayer C Frameset",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Slayer Alloy 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Slayer Alloy 30 Park",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Reaper Powerplay 26",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Reba R 140 mm",
+        "brakes": "Tektro HD-J285",
+        "dropper_post": "X-Fusion Manic Composite"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Powerplay Carbon 70",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "Fox 36 E-MTB Float EVOL GRIP Performance",
+        "rear_shock": "Fox Float X Performance",
+        "drivetrain": "Shimano XT"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Carbon 99",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Lyrik Ultimate Flight Attendant",
+        "rear_shock": "RockShox Super Deluxe Ultimate Flight Attendant",
+        "drivetrain": "SRAM X0 Transmission Wireless"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Carbon 90",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "Fox 36 GRIP2 Factory",
+        "rear_shock": "Fox Float X Factory",
+        "drivetrain": "Shimano XTR"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Carbon 70",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "Fox 36 Performance Elite",
+        "rear_shock": "Fox Float X Performance Elite",
+        "drivetrain": "Shimano XT"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Carbon 70",
+      "model_year": 2024,
+      "trim": "SRAM X0 Transmission",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Lyrik Select+",
+        "rear_shock": "RockShox Super Deluxe Ultimate",
+        "drivetrain": "SRAM X0 Transmission Wireless"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Carbon 50",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Lyrik Select RC",
+        "rear_shock": "Fox Float X Performance",
+        "drivetrain": "Shimano XT"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct C Frameset",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "rear_shock": "Fox Float X Factory"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Instinct Alloy 10",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox Recon Silver RL",
+        "rear_shock": "RockShox Deluxe Select",
+        "drivetrain": "Shimano CUES"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Growler Jr 20",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Fusion Powerplay 30",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "drivetrain": "Shimano SLX",
+        "brakes": "Shimano MT4100 2-piston"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Fusion 30",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Fusion 10",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "SR Suntour XCM32",
+        "drivetrain": "MicroShift Advent"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Element Carbon 99",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result",
+        "fork": "RockShox SID Ultimate Flight Attendant",
+        "rear_shock": "RockShox SIDLuxe Ultimate Flight Attendant",
+        "drivetrain": "SRAM XX Transmission Wireless"
+      }
+    },
+    {
+      "brand": "Rocky Mountain",
+      "model": "Element Carbon 90",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://bikes.com/collections/2024-bikes",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Rocky Mountain 2024 Bikes archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Alpine Trail E2",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Rift Zone XR AXS",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Alpine Trail E1",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Alpine Trail E",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Rift Zone E",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Team Marin 2",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Gestalt XR",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Rift Zone 2",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "San Quentin 3",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "DSX FS",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Rift Zone Jr 26\"",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Rift Zone Jr 24\"",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "El Roy",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Team Marin 1",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Alcatraz",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "San Quentin 2",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "DSX 2",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "DSX 1",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "DSX",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "Fairfax 2",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "fitness",
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin 2024 Archive collection result"
+      }
+    },
+    {
+      "brand": "Marin",
+      "model": "San Quentin 24\"",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://marinbikes.com/collections/2024-archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Marin archive result explicitly labels this model 2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB165",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB165 2023-2026"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB165",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB165 2023-2026"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB165",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB165 2023-2026"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB165",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB165 2023-2026"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB140 29",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB140 29 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB140 29",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB140 29 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB140 29",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB140 29 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB120",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB120 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB120",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB120 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB120",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB120 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "160E",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels 160E 2022-2024"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "160E",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels 160E 2022-2024"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "160E",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels 160E 2022-2024"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB160",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB160 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB160",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB160 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB160",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB160 2023-2025"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB165 27.5",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB165 27.5 2020-2023",
+        "wheel_size": "27.5"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB165 27.5",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB165 27.5 2020-2023",
+        "wheel_size": "27.5"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB165 27.5",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB165 27.5 2020-2023",
+        "wheel_size": "27.5"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB165 27.5",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB165 27.5 2020-2023",
+        "wheel_size": "27.5"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB140 27.5",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB140 27.5 2020-2023",
+        "wheel_size": "27.5"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB140 27.5",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB140 27.5 2020-2023",
+        "wheel_size": "27.5"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB140 27.5",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB140 27.5 2020-2023",
+        "wheel_size": "27.5"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB140 27.5",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB140 27.5 2020-2023",
+        "wheel_size": "27.5"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB115",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB115 2021-2022"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB115",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB115 2021-2022"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB130",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB130 2020-2022"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB130",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB130 2020-2022"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB130",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB130 2020-2022"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB150",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB150 2020-2022"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB150",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB150 2020-2022"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB150",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB150 2020-2022"
+      }
+    },
+    {
+      "brand": "Yeti",
+      "model": "SB100",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://yeticycles.com/en-us/archive",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official Yeti Bike Archive labels SB100 2020-2020"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JAM ALU",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/bikes/jam/pdp-jam-alu-2022-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JAM ALU",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/bikes/jam/pdp-jam-alu-2022-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JAM ALU",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/bikes/jam/pdp-jam-alu-2022-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JAM ALU",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/bikes/jam/pdp-jam-alu-2022-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JAM ALU LTD",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/bikes/jam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2021-2021"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JAM CARBON",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/bikes/jam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2021"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JAM CARBON",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/bikes/jam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2021"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JAM CARBON",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/bikes/jam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2022"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "FOCUS SAM² Bosch",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/focus-sam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2023-2024"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "FOCUS SAM² Bosch",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/focus-sam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2023-2024"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "FOCUS SAM² Bosch",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/focus-sam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2021-2022"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "FOCUS SAM² Bosch",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/focus-sam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2021-2022"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "FOCUS SAM² Shimano",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/focus-sam",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2020"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "THRON² Bosch",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/thron/pdp-thron-2022-2024-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2024"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "THRON² Bosch",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/thron/pdp-thron-2022-2024-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2024"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "THRON² Bosch",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/thron/pdp-thron-2022-2024-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2024"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "THRON² EQP Bosch",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/thron/pdp-thron-eqp-2022-2024-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2024"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "THRON² EQP Bosch",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/thron/pdp-thron-eqp-2022-2024-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2024"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "THRON² EQP Bosch",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/thron/pdp-thron-eqp-2022-2024-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2022-2024"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JARIFA² Bosch",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/jarifa/pdp-jarifa-2020-2022-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2022"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JARIFA² Bosch",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/jarifa/pdp-jarifa-2020-2022-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2022"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "JARIFA² Bosch",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.focus-bikes.com/int/archive/e-bikes/jarifa/pdp-jarifa-2020-2022-bosch",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2022"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "ATLAS 6 series",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://www.focus-bikes.com/de_de/archive/bikes/atlas/pdp-atlas-6-series-2020-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "ATLAS 6 series",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://www.focus-bikes.com/de_de/archive/bikes/atlas/pdp-atlas-6-series-2020-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "ATLAS 6 series",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://www.focus-bikes.com/de_de/archive/bikes/atlas/pdp-atlas-6-series-2020-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "ATLAS 6 series",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://www.focus-bikes.com/de_de/archive/bikes/atlas/pdp-atlas-6-series-2020-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "ATLAS 6 series",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://www.focus-bikes.com/de_de/archive/bikes/atlas/pdp-atlas-6-series-2020-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2025"
+      }
+    },
+    {
+      "brand": "FOCUS",
+      "model": "ATLAS 6 series",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": null,
+      "manufacturer_url": "https://www.focus-bikes.com/de_de/archive/bikes/atlas/pdp-atlas-6-series-2020-2025",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official FOCUS archive page labels this generation 2020-2025"
+      }
+    },
+    {
+      "brand": "Corratec",
+      "model": "Allroad Travel EQ",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.corratec.com/en/Bike-Archive/Allroad-Travel-EQ-Bronze-Dark-Bronze-46.html",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official exact Corratec product page explicitly states model year 2026",
+        "frame_material": "aluminium",
+        "wheel_size": "700c / 622",
+        "drivetrain_brand": "Shimano",
+        "drivetrain": "Shimano CUES 2x10",
+        "rear_derailleur": "Shimano RD-U6020",
+        "cassette": "Shimano CS-LG300-10 11-39T",
+        "chain": "Shimano CN-LG500",
+        "brakes": "Shimano BR-U6030 160/160 mm",
+        "fork": "Allroad aluminium fork",
+        "weight_kg": 13.95
+      }
+    },
+    {
+      "brand": "Corratec",
+      "model": "Revo Bow iLink SL Pro",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "xc_full_suspension",
+      "manufacturer_url": "https://www.corratec.com/en/Bike-Archive/Revo-Bow-iLink-SL-Pro-Grey-Black-Light-Grey-M.html",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official exact Corratec product page explicitly states model year 2026",
+        "frame_material": "carbon",
+        "wheel_size": "29",
+        "drivetrain_brand": "SRAM",
+        "drivetrain": "SRAM X0 Eagle AXS Transmission 1x12",
+        "rear_derailleur": "SRAM X0 Eagle AXS T-Type",
+        "cassette": "SRAM XS-1275 T-Type 10-52T",
+        "brakes": "SRAM Level Silver Stealth 4-piston 180/160 mm",
+        "fork": "RockShox SID Select 3P 120 mm",
+        "rear_shock": "RockShox SID Select+ 190x45",
+        "weight_kg": 12.7
+      }
+    }
+  ]
+}

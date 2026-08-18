@@ -1,0 +1,117 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "VeloQuest: есть ли спрос?",
+    "description": "Краткий decision report по рыночным сигналам и конкурентному wedge VeloQuest.",
+    "generatedAt": "2026-08-05T16:30:00Z",
+    "charts": [
+      {
+        "id": "feature_overlap_chart",
+        "title": "Пересечение с ключевыми механиками VeloQuest",
+        "subtitle": "Направленный feature audit публичных продуктовых страниц; не оценка market share или качества.",
+        "type": "bar",
+        "dataset": "feature_overlap",
+        "sourceId": "competitive_audit",
+        "valueFormat": "number",
+        "encodings": {
+          "x": { "field": "product", "type": "nominal", "label": "Продукт" },
+          "y": { "field": "observed_features", "type": "quantitative", "label": "Наблюдаемые механики из 4" },
+          "tooltip": [
+            { "field": "coverage", "type": "text", "label": "Что подтверждено" }
+          ]
+        }
+      }
+    ],
+    "sources": [
+      { "id": "strava_about", "label": "Strava — About", "href": "https://press.strava.com/about" },
+      { "id": "strava_2025", "label": "Strava — Year in Sport 2025", "href": "https://press.strava.com/articles/strava-releases-12th-annual-year-in-sport-trend-report-2025" },
+      { "id": "wandrer", "label": "Wandrer — product page", "href": "https://wandrer.earth/" },
+      { "id": "squadrats", "label": "Squadrats — product page", "href": "https://squadrats.com/" },
+      {
+        "id": "competitive_audit",
+        "label": "VeloQuest competitive feature audit — 5 Aug 2026",
+        "href": "https://wandrer.earth/",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT 'VeloQuest (план)' AS product, 4 AS observed_features, 'exploration + rewards + sync + garage' AS coverage UNION ALL SELECT 'Wandrer',3,'exploration + points + sync' UNION ALL SELECT 'Squadrats',2,'territory collection + game objective'",
+          "description": "Reproducible encoding of the manual four-feature audit. Public product pages are cited in the adjacent report narrative.",
+          "executed_at": "2026-08-05T16:30:00Z",
+          "filters": ["Four fixed mechanics; only explicitly observed features counted"]
+        }
+      }
+    ],
+    "blocks": [
+      { "id": "title", "type": "markdown", "body": "# VeloQuest: есть ли спрос?" },
+      {
+        "id": "executive_summary",
+        "type": "markdown",
+        "body": "## Executive Summary\n\n- **Да, спрос на базовую механику подтверждён достаточно, чтобы выпускать alpha сейчас.** Существуют специализированные продукты, которые превращают поездки в сбор новых дорог/территорий, а крупнейшая смежная платформа Strava заявляет более 195 млн атлетов.\n- **Это не подтверждение спроса именно на VeloQuest и не доказательство готовности платить.** У нас пока нет retention, повторных квестов и платежного поведения собственных пользователей.\n- **Лучшее решение — выпускать тестовый билд, а не продолжать кабинетное исследование.** Следующие 20–30 велосипедистов дадут более ценный сигнал, чем дальнейшее расширение feature list."
+      },
+      {
+        "id": "market_signal",
+        "type": "markdown",
+        "body": "## Большой смежный рынок уже сформирован\n\nStrava на текущей странице About заявляет **195+ млн атлетов в 185+ странах**. В декабре 2025 компания сообщала о **180+ млн пользователей**. Я не использую разницу как точный growth-rate: формулировка метрики изменилась с users на athletes. Но масштаб цифрового поведения — запись, синхронизация и разбор активности — однозначно большой.\n\nИсточник: [Strava About](https://press.strava.com/about), [Year in Sport 2025](https://press.strava.com/articles/strava-releases-12th-annual-year-in-sport-trend-report-2025)."
+      },
+      {
+        "id": "direct_signal",
+        "type": "markdown",
+        "body": "## Механика «исследуй новое» уже имеет самостоятельную ценность\n\n**Wandrer — почти прямое подтверждение самой рискованной части гипотезы.** Продукт синхронизирует активности из Strava, Garmin и RideWithGPS, показывает новые дороги/районы и начисляет очки за новое покрытие. Squadrats формулирует миссию ещё проще: собирать и соединять клетки на карте.\n\nЭто означает: мотивация ехать не быстрее, а **в новые места**, уже существует как отдельная продуктовая категория.\n\nИсточники: [Wandrer](https://wandrer.earth/), [Squadrats](https://squadrats.com/)."
+      },
+      {
+        "id": "chart_explainer",
+        "type": "markdown",
+        "body": "## Наш wedge шире существующего exploration layer\n\nНа диаграмме считается только четыре заранее определённые механики: территориальное исследование как цель, награда за исследование, импорт поездок из внешних источников и component-aware Real Bike Garage. Это **feature audit**, не рейтинг качества. Wandrer уже покрывает три из четырёх; Squadrats — две явно подтверждённые на просмотренной публичной странице. Garage остаётся отдельной гипотезой, а не доказанным преимуществом."
+      },
+      { "id": "feature_overlap", "type": "chart", "chartId": "feature_overlap_chart" },
+      {
+        "id": "next_steps",
+        "type": "markdown",
+        "body": "## Что проверяем сразу после alpha\n\n1. **Activation:** не менее 70% тестеров подключают источник/GPX и получают первый корректный результат поездки.\n2. **Adventure return:** не менее 40% активированных тестеров засчитывают второй квест в течение 7 дней.\n3. **Route influence:** не менее 50% активированных тестеров говорят или показывают поведением, что квест повлиял на выбор маршрута.\n4. **Sync trust:** не менее 90% тестовых поездок импортируются корректно; двойной XP — 0 случаев.\n5. **Monetization discovery:** после двух завершённых квестов отдельно проверяем готовность платить; до этого вопрос о цене малоинформативен."
+      },
+      {
+        "id": "further_questions",
+        "type": "markdown",
+        "body": "## Что ещё неизвестно\n\n- Будет ли RPG-прогрессия повышать retention относительно простого tile hunting?\n- Нужен ли Real Bike Garage большинству пользователей или это сильная, но узкая нишевая механика?\n- Какой источник поездок станет критичным после HealthKit/Health Connect/GPX: Strava, Garmin Connect или другой?\n- Возникает ли готовность платить после появления персонального прогресса и истории территории?"
+      },
+      {
+        "id": "caveats",
+        "type": "markdown",
+        "body": "## Ограничения\n\nЭто направленное исследование по публичным данным на 5 августа 2026 года, а не полный market sizing. Публичные страницы Wandrer и Squadrats не раскрывают сопоставимую активную аудиторию или выручку, поэтому я **не делаю вывод о размере коммерческого спроса**. Сильнее всего подтверждены adjacent demand и exploration behavior; willingness-to-pay VeloQuest остаётся неподтверждённой гипотезой."
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-08-05T16:30:00Z",
+    "status": "ready",
+    "datasets": {
+      "feature_overlap": [
+        { "product": "VeloQuest (план)", "observed_features": 4, "coverage": "exploration + rewards + sync + garage" },
+        { "product": "Wandrer", "observed_features": 3, "coverage": "exploration + points + sync" },
+        { "product": "Squadrats", "observed_features": 2, "coverage": "territory collection + game objective" }
+      ]
+    }
+  },
+  "sources": [
+    { "id": "strava_about", "label": "Strava — About", "href": "https://press.strava.com/about" },
+    { "id": "strava_2025", "label": "Strava — Year in Sport 2025", "href": "https://press.strava.com/articles/strava-releases-12th-annual-year-in-sport-trend-report-2025" },
+    { "id": "wandrer", "label": "Wandrer — product page", "href": "https://wandrer.earth/" },
+    { "id": "squadrats", "label": "Squadrats — product page", "href": "https://squadrats.com/" },
+    {
+      "id": "competitive_audit",
+      "label": "VeloQuest competitive feature audit — 5 Aug 2026",
+      "href": "https://wandrer.earth/",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT 'VeloQuest (план)' AS product, 4 AS observed_features, 'exploration + rewards + sync + garage' AS coverage UNION ALL SELECT 'Wandrer',3,'exploration + points + sync' UNION ALL SELECT 'Squadrats',2,'territory collection + game objective'",
+        "description": "Reproducible encoding of the manual four-feature audit. Public product pages are cited in the adjacent report narrative.",
+        "executed_at": "2026-08-05T16:30:00Z",
+        "filters": ["Four fixed mechanics; only explicitly observed features counted"]
+      }
+    }
+  ]
+}

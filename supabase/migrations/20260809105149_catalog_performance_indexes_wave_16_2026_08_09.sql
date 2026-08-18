@@ -1,0 +1,2 @@
+-- Migration history compatibility stub. The effective schema is captured by
+-- 20260811000000_veloquest_full_baseline.sql.

@@ -1,0 +1,65 @@
+project_id = "veloquest"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 17
+
+[db.seed]
+enabled = false
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+site_url = "veloquest://auth/callback"
+additional_redirect_urls = [
+  "veloquest://auth/callback",
+  # Legacy recovery links remain accepted during the 0.8.9 transition. New
+  # reset emails use the canonical auth callback.
+  "veloquest://reset-password",
+  "veloquest://strava-connected",
+]
+enable_signup = true
+
+[functions.migrate-local-alpha]
+verify_jwt = true
+
+[functions.ride-processor]
+verify_jwt = true
+
+[functions.platform-ride-authorizer]
+verify_jwt = true
+
+[functions.delete-account]
+verify_jwt = true
+
+[functions.route-generator]
+verify_jwt = true
+
+[functions.strava-sync]
+verify_jwt = true
+
+[functions.strava-oauth]
+verify_jwt = false
+
+[functions.strava-webhook]
+verify_jwt = false
+
+[functions.vk-auth-start]
+verify_jwt = false
+
+[functions.vk-auth-callback]
+verify_jwt = false
+
+[functions.vk-auth-finish]
+verify_jwt = false

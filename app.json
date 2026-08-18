@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "VeloQuest",
+    "slug": "veloquest-mobile",
+    "version": "0.8.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "veloquest",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F6F1"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.semyonsemenyuk.veloquest",
+      "buildNumber": "9",
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "VeloQuest читает ваши велотренировки из Apple Health, чтобы засчитывать реальные поездки, открывать территорию и обновлять квесты. Данные не записываются обратно в Apple Health.",
+        "NSLocationWhenInUseUsageDescription": "VeloQuest использует ваше текущее местоположение только для поиска маршрутов рядом с вами."
+      },
+      "entitlements": {
+        "com.apple.developer.healthkit": true
+      }
+    },
+    "android": {
+      "package": "com.semyonsemenyuk.veloquest",
+      "versionCode": 9,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#F7F6F1"
+      },
+      "permissions": [
+        "android.permission.health.READ_EXERCISE",
+        "android.permission.health.READ_EXERCISE_ROUTES"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@kingstinct/react-native-healthkit",
+      "react-native-health-connect",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36,
+            "minSdkVersion": 26
+          }
+        }
+      ],
+      "expo-document-picker",
+      "expo-font",
+      "expo-location",
+      "@maplibre/maplibre-react-native"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "eb01334e-9458-447b-8f77-836d6baf1db7"
+      }
+    },
+    "owner": "semyon_semenyuk"
+  }
+}

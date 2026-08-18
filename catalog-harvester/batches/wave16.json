@@ -1,0 +1,940 @@
+{
+  "wave": 16,
+  "generated_at": "2026-08-09",
+  "models": [
+    {
+      "brand": "ROSE",
+      "model": "Ground Control",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Ground Control 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Ground Control",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Ground Control 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Ground Control",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Ground Control 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Ground Control",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Ground Control 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Ground Control",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Ground Control 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Root Miller",
+      "model_year": 2020,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Root Miller 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Root Miller",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Root Miller 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Root Miller",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Root Miller 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Root Miller",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Root Miller 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Root Miller",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Root Miller 2020-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Bonero",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Bonero 2022-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Bonero",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Bonero 2022-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Bonero",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index labels Bonero 2022-2024"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Backroad AL",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index explicitly labels Backroad AL 2025"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Backroad CF",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index explicitly labels Backroad CF 2025"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Xtra Watt Evo",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index explicitly labels Xtra Watt Evo 2021"
+      }
+    },
+    {
+      "brand": "ROSE",
+      "model": "Xtra Watt Evo",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://www.rosebikes.com/support/manuals",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official ROSE frame-details index explicitly labels Xtra Watt Evo 2025"
+      }
+    },
+    {
+      "brand": "Lapierre",
+      "model": "E-Explorer 5.5 Low",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://lapierrebikes.com/en-int/products/e-explorer-55-llbub",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official exact Lapierre product description explicitly states E-Explorer 5.5 Low 2026",
+        "frame_material": "aluminium",
+        "wheel_size": "27.5",
+        "motor": "Bosch Performance Line 75 Nm",
+        "battery": "Bosch 540 Wh",
+        "drivetrain": "Shimano CUES 9-speed",
+        "rear_derailleur": "Shimano CUES RD-U3020-9",
+        "cassette": "Shimano CUES CS-LG300-9",
+        "chain": "KMC eGlide EPT 9-11s",
+        "fork": "Suntour XCM32-Boost RL DS 100 mm",
+        "brakes": "Tektro HD-M280 2-piston 203/203 mm"
+      }
+    },
+    {
+      "brand": "Lapierre",
+      "model": "E-Explorer 6.5 Low",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://lapierrebikes.com/en-int/products/e-explorer-65-llcub",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official exact Lapierre product description explicitly states E-Explorer 6.5 Low 2026",
+        "frame_material": "aluminium",
+        "wheel_size": "27.5",
+        "motor": "Bosch Performance Line PX 75 Nm",
+        "battery": "Bosch PowerTube 500 Wh",
+        "drivetrain": "Shimano Deore/CUES 9-speed",
+        "rear_derailleur": "Shimano CUES RD-U3020-9",
+        "cassette": "Shimano CUES CS-LG300-9",
+        "chain": "KMC eGlide EPT 9-11s",
+        "fork": "Suntour XCM32-Boost RL DS 110 mm",
+        "brakes": "Tektro HD-M280 2-piston 203/203 mm"
+      }
+    },
+    {
+      "brand": "Lapierre",
+      "model": "Xelius DRS Team Replica",
+      "model_year": 2026,
+      "trim": "",
+      "market": "global",
+      "category": "road",
+      "manufacturer_url": "https://lapierrebikes.com/en-int/pages/bikes/xelius-drs-team-replica",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official exact Lapierre page explicitly describes the 2026 Team Replica design",
+        "frame_material": "carbon",
+        "drivetrain": "Shimano Dura-Ace Di2 12-speed",
+        "wheels": "Ursus Proxima 40",
+        "weight_kg": 7.25
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Riot",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2025"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Path Asket",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2025"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Poacha",
+      "model_year": 2025,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2025"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Riot",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-ASX",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Pro Advanced",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Universal",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Essential",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Lector",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Lector FS",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana 4X",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana Tour",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana Trail",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Riot AL",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Riot CF",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Path Riot",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Asket AL",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Path Asket",
+      "model_year": 2024,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2024"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Riot 750WH",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-ASX",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Essential",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Pro Advanced",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Kato FS",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Kato / Lanao",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Lector FS SF",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Lector SF",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana 4X",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana Tour",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana Trail",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Riot AL",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Path Riot",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Asket AL",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Path Asket",
+      "model_year": 2023,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2023"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Lector SF",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Lector FS SF",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Kato FS",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana 4X",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana Trail",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Road Rage AL",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "gravel",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-ASX Essential",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-ASX Universal Advanced",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Riot AL",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Riot CF",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Essential Low EQ",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Essential Mid EQ",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Universal Low EQ",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Universal EQ",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "E-Teru Pro Advanced",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "e_bike",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Riot",
+      "model_year": 2022,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2022"
+      }
+    },
+    {
+      "brand": "GHOST",
+      "model": "Nirvana Tour",
+      "model_year": 2021,
+      "trim": "",
+      "market": "global",
+      "category": "mountain",
+      "manufacturer_url": "https://ghost-bikes.com/en-es/pages/downloads/exploded-drawings",
+      "evidence_checked_at": "2026-08-09",
+      "specs": {
+        "model_year_evidence": "official GHOST exploded-drawings index lists this model under 2021 and labels it MY21"
+      }
+    }
+  ]
+}

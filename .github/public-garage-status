@@ -1,5 +1,5 @@
-phase=private_snapshot_verified
+phase=snapshot_ready
 source_repo=SSSemyon/VeloQuest
 source_ref=agent/release-closure-0.8.9
 source_sha=67bcf70f755ae183261ae269c902dc58cc5ff824
-run_id=32153109780
+run_id=32153498898

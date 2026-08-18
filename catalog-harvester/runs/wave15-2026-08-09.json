@@ -1,0 +1,37 @@
+{
+  "wave": 15,
+  "date": "2026-08-09",
+  "batch": "catalog-harvester/batches/wave15.json",
+  "batch_sha256": "05595fbeb0ce202b1c3f8711e313ffc9e9ea865d9f7ef67085ee233d4a3d05b7",
+  "input_models": 219,
+  "chunks": [100, 100, 19],
+  "preflight": {
+    "enabled_models": 374,
+    "enabled_brands": 38,
+    "pre_2020": 0,
+    "database_size": "12 MB"
+  },
+  "post_import": {
+    "enabled_models": 593,
+    "enabled_brands": 40,
+    "pre_2020": 0,
+    "duplicate_identities": 0,
+    "database_size": "13 MB",
+    "enabled_components": 37,
+    "compatibility_rules": 13,
+    "bike_component_fitments": 42,
+    "enabled_images": 12,
+    "security_advisor_lints": 0,
+    "authenticated_search_smoke": "passed"
+  },
+  "brand_model_counts_after_import": {
+    "Specialized": 97,
+    "Rocky Mountain": 49,
+    "Yeti": 37,
+    "Marin": 34,
+    "FOCUS": 28,
+    "Corratec": 2
+  },
+  "component_enrichment": "supabase/schema/catalog_enrichment_wave_15_corratec_cues_2026_08_09.sql",
+  "harvester_fix": "Generated IDs now include non-empty trim; validation rejects duplicate IDs before SQL emission."
+}

@@ -1,0 +1,37 @@
+{
+  "wave": 14,
+  "date": "2026-08-08",
+  "batch": "catalog-harvester/batches/wave14.json",
+  "batch_sha256": "ad1ef37bb9110e57943f52b7495d375ac1519eef5a90c29d07270bbcf15da1c3",
+  "provenance_reconciled_at": "2026-08-11",
+  "provenance_note": "Canonical normalized-model hash uses the immutable batch generated_at date when row-level evidence_checked_at is absent.",
+  "input_models": 188,
+  "chunks": [100, 88],
+  "preflight": {
+    "enabled_models": 186,
+    "enabled_brands": 32,
+    "pre_2020": 0,
+    "database_size": "12 MB"
+  },
+  "post_import": {
+    "enabled_models": 374,
+    "enabled_brands": 38,
+    "pre_2020": 0,
+    "duplicate_identities": 0,
+    "database_size": "12 MB",
+    "enabled_components": 33,
+    "compatibility_rules": 11,
+    "bike_component_fitments": 36,
+    "security_advisor_lints": 0,
+    "authenticated_search_smoke": "passed"
+  },
+  "new_brand_model_counts": {
+    "Haro": 93,
+    "AUTHOR": 31,
+    "Mondraker": 49,
+    "NS Bikes": 13,
+    "Polygon": 1,
+    "Dartmoor": 1
+  },
+  "component_enrichment": "supabase/schema/catalog_enrichment_wave_14_haro_shimano_2026_08_08.sql"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "brands": ["Shimano"],
+      "official_hosts": ["productinfo.shimano.com"],
+      "index_url": "https://productinfo.shimano.com/en/compatibility",
+      "strategy": "html-compatibility-index"
+    },
+    {
+      "brands": ["SRAM", "RockShox", "ZIPP", "TRUVATIV", "QUARQ", "AVID"],
+      "official_hosts": ["sram.com", "www.sram.com", "support.sram.com"],
+      "index_url": "https://www.sram.com/en/service/manuals--documents/compatability-map?showRecent=false",
+      "service_search_url": "https://www.sram.com/en/service/search",
+      "strategy": "service-compatibility-map"
+    },
+    {
+      "brands": ["microSHIFT", "MicroSHIFT"],
+      "official_hosts": ["microshift.com", "www.microshift.com"],
+      "index_url": "https://www.microshift.com/faqs/",
+      "strategy": "official-faq-range-rules"
+    },
+    {
+      "brands": ["Campagnolo"],
+      "official_hosts": ["campagnolo.com", "www.campagnolo.com"],
+      "index_url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "strategy": "official-product-family-rules"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "veloquest-mobile",
+  "description": "VeloQuest mobile MVP — real rides become exploration quests.",
+  "private": true,
+  "type": "module",
+  "version": "0.8.9",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "@garmin/fitsdk": "21.212.0",
+    "@kingstinct/react-native-healthkit": "^14.0.2",
+    "@maplibre/maplibre-react-native": "^11.3.6",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/supabase-js": "2.112.1",
+    "expo": "~57.0.13",
+    "expo-build-properties": "~57.0.11",
+    "expo-document-picker": "^57.0.1",
+    "expo-file-system": "~57.0.4",
+    "expo-font": "~57.0.1",
+    "expo-location": "~57.0.10",
+    "expo-status-bar": "~57.0.1",
+    "expo-system-ui": "~57.0.2",
+    "expo-web-browser": "57.0.2",
+    "h3-js": "^4.5.0",
+    "react": "19.2.3",
+    "react-native": "0.86.2",
+    "react-native-health-connect": "^4.1.2",
+    "react-native-nitro-modules": "^0.36.5"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "libpg-query": "17.7.4",
+    "typescript": "~6.0.3"
+  },
+  "overrides": {
+    "xcode": {
+      "uuid": "11.1.1"
+    }
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "check:edge": "npx --yes deno@2.9.5 check supabase/functions/*/index.ts",
+    "check:migrations": "node scripts/build-supabase-migrations-strict.mjs --check",
+    "check:sql": "node scripts/check-sql.mjs",
+    "check:release": "npm run typecheck && npm test && npm run check:catalog && npm run check:edge && npm run check:migrations && npm run check:sql && npm run check:backend && npm run check:garage && npm run check:garage:maximum",
+    "probe:routes": "node scripts/probe-route-portability.cjs",
+    "probe:routes:regional": "node scripts/probe-route-portability.cjs --mode=regional",
+    "check:catalog": "node catalog-harvester/integrity.mjs && node scripts/audit-garage-catalog.mjs --strict-core --write-enrichment-queue=catalog-harvester/enrichment-queue.json && node scripts/apply-garage-outcomes-to-enrichment-queue.mjs catalog-harvester/enrichment-queue.json && node catalog-harvester/check-enrichment-queue.mjs",
+    "check:garage": "node scripts/audit-garage-catalog.mjs && node scripts/audit-garage-outcomes.mjs && node scripts/audit-garage-alias-contracts.mjs && node scripts/audit-garage-compatibility-sources.mjs",
+    "check:garage:maximum": "node scripts/check-garage-maximum.mjs",
+    "build:garage:enrichment-queue": "node scripts/audit-garage-catalog.mjs --write-enrichment-queue=catalog-harvester/enrichment-queue.json && node scripts/apply-garage-outcomes-to-enrichment-queue.mjs catalog-harvester/enrichment-queue.json",
+    "garage:compatibility:demand": "node scripts/build-garage-compatibility-demand.mjs",
+    "garage:compatibility:manifest": "node catalog-harvester/build-component-compatibility-manifest.mjs",
+    "garage:compatibility:resolve": "node catalog-harvester/resolve-component-compatibility.mjs",
+    "garage:compatibility:materialize": "node catalog-harvester/materialize-component-compatibility-wave.mjs",
+    "garage:manual-resolution": "node catalog-harvester/build-manual-resolution-queue.mjs",
+    "garage:evidence:manifest": "node catalog-harvester/build-product-evidence-manifest.mjs",
+    "garage:evidence:extract": "node catalog-harvester/extract-product-evidence.mjs",
+    "garage:evidence:compile": "node catalog-harvester/compile-product-evidence.mjs",
+    "garage:evidence:materialize": "node catalog-harvester/materialize-product-evidence-wave.mjs",
+    "garage:evidence:deferrals": "node catalog-harvester/update-evidence-deferrals.mjs",
+    "garage:urls:manifest": "node catalog-harvester/build-product-url-resolution-manifest.mjs",
+    "garage:urls:resolve": "node catalog-harvester/resolve-product-urls.mjs",
+    "garage:urls:evidence-manifest": "node catalog-harvester/build-resolved-product-evidence-manifest.mjs",
+    "build:supabase-migrations": "node scripts/build-supabase-migrations-strict.mjs",
+    "check:backend": "node scripts/audit-backend-repro.mjs && node scripts/audit-platform-ride-ingest.mjs",
+    "prebuild": "expo prebuild",
+    "build:apk": "npx --yes eas-cli@21.8.0 build --platform android --profile preview",
+    "build:ios:device": "npx --yes eas-cli@21.8.0 build --platform ios --profile preview",
+    "build:ios": "npx --yes eas-cli@21.8.0 build --platform ios --profile production",
+    "submit:ios": "npx --yes eas-cli@21.8.0 submit --platform ios --profile production"
+  },
+  "expo": {
+    "doctor": {
+      "appConfigFieldsNotSyncedCheck": {
+        "enabled": false
+      }
+    }
+  }
+}
