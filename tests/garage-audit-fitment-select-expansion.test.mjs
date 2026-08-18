@@ -21,7 +21,7 @@ test('expanded Garage release audit parses exact INSERT SELECT fitments before r
   assert.match(expanded, /selected\.bike_id \?\? modelIdentity\.get\(identity\(selected\.identity\)\)/);
   assert.match(expanded, /modelsById\.has\(bikeId\)/);
   assert.match(expanded, /fitment SELECT bike selector is not present in catalog/);
-  assert.match(expanded, /computeRecommendationCoverage\(\{ fitments, compatibility, aliases: componentAliases, activeModelIds \}\)/);
+  assert.match(expanded, /computeRecommendationCoverage\(\{ fitments(?:: fitments)?, compatibility, aliases: componentAliases, activeModelIds \}\)/);
   assert.match(expanded, /photo_percent: 100/);
   assert.match(expanded, /exact_fitment_percent: 100/);
   assert.match(expanded, /recommendation_outcome_percent: 100/);
