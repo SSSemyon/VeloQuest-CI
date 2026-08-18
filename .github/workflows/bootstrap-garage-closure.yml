@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - .github/run-public-garage
+      - .github/public-source-sha
       - .github/workflows/bootstrap-garage-closure.yml
 
 permissions:
@@ -27,13 +27,27 @@ jobs:
       GARAGE_CLOSURE_MAX_PASSES: '12'
       SOURCE_REPO: SSSemyon/VeloQuest
       SOURCE_REF: agent/release-closure-0.8.9
-      EXPECTED_SOURCE_SHA: 67bcf70f755ae183261ae269c902dc58cc5ff824
+      FALLBACK_SOURCE_SHA: 0801bf0e8a56973a39dd3e66f9bbacb5fe48b956
     steps:
       - name: Checkout public CI repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           path: public
+
+      - name: Resolve exact private source SHA
+        shell: bash
+        working-directory: public
+        run: |
+          set -euo pipefail
+          if [ -f .github/public-source-sha ]; then
+            EXPECTED_SOURCE_SHA="$(tr -d '[:space:]' < .github/public-source-sha)"
+          else
+            EXPECTED_SOURCE_SHA="$FALLBACK_SOURCE_SHA"
+          fi
+          [[ "$EXPECTED_SOURCE_SHA" =~ ^[0-9a-f]{40}$ ]]
+          echo "EXPECTED_SOURCE_SHA=$EXPECTED_SOURCE_SHA" >> "$GITHUB_ENV"
+          echo "requested_source_sha=$EXPECTED_SOURCE_SHA"
 
       - name: Checkout private canonical snapshot read-only
         uses: actions/checkout@v4
@@ -105,6 +119,7 @@ jobs:
           rsync -a --exclude='.git' --exclude='.github' source/ public/
           mkdir -p public/.github/workflows
           cp /tmp/bootstrap-garage-closure.yml public/.github/workflows/bootstrap-garage-closure.yml
+          printf '%s\n' "$EXPECTED_SOURCE_SHA" > public/.github/public-source-sha
           cat > public/.github/public-garage-status <<EOF
           phase=snapshot_ready
           source_repo=${SOURCE_REPO}
@@ -139,6 +154,10 @@ jobs:
       - name: Install locked dependencies
         working-directory: public
         run: npm ci
+
+      - name: Verify fitment SELECT trust boundary
+        working-directory: public
+        run: node --test tests/garage-fitment-select-parser.test.mjs tests/garage-fitment-select-id-expansion.test.mjs tests/garage-audit-fitment-select-expansion.test.mjs
 
       - name: Run bounded fail-closed Garage closure loop
         id: closure
