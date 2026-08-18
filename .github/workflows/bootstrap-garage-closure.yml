@@ -96,41 +96,24 @@ jobs:
           print('Pre-public snapshot secret scan: PASS')
           PY
 
-      - name: Publish observable private-snapshot verification checkpoint
+      - name: Replace public tree with safe snapshot
         shell: bash
-        working-directory: public
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          mkdir -p .github
-          cat > .github/public-garage-status <<EOF
-          phase=private_snapshot_verified
+          cp public/.github/workflows/bootstrap-garage-closure.yml /tmp/bootstrap-garage-closure.yml
+          find public -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          rsync -a --exclude='.git' --exclude='.github' source/ public/
+          mkdir -p public/.github/workflows
+          cp /tmp/bootstrap-garage-closure.yml public/.github/workflows/bootstrap-garage-closure.yml
+          cat > public/.github/public-garage-status <<EOF
+          phase=snapshot_ready
           source_repo=${SOURCE_REPO}
           source_ref=${SOURCE_REF}
           source_sha=${EXPECTED_SOURCE_SHA}
           run_id=${GITHUB_RUN_ID}
           EOF
-          git add .github/public-garage-status
-          git commit -m "ci: verify private Garage snapshot ${EXPECTED_SOURCE_SHA}"
-          git push origin HEAD:main
 
-      - name: Replace public working tree with clean snapshot
-        shell: bash
-        run: |
-          set -euo pipefail
-          cp public/.github/workflows/bootstrap-garage-closure.yml /tmp/bootstrap-garage-closure.yml
-          cp public/.github/public-garage-status /tmp/public-garage-status
-          find public -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-          rsync -a --exclude='.git' source/ public/
-          mkdir -p public/.github/workflows
-          cp /tmp/bootstrap-garage-closure.yml public/.github/workflows/bootstrap-garage-closure.yml
-          cp /tmp/public-garage-status public/.github/public-garage-status
-
-      - name: Commit clean public snapshot without private history
+      - name: Commit clean public snapshot without private history or workflows
         shell: bash
         working-directory: public
         env:
@@ -144,6 +127,15 @@ jobs:
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push origin HEAD:main
 
+      - name: Hydrate private GitHub contracts locally only
+        shell: bash
+        run: |
+          set -euo pipefail
+          rsync -a source/.github/ public/.github/
+          cp /tmp/bootstrap-garage-closure.yml public/.github/workflows/bootstrap-garage-closure.yml
+          echo 'Private .github contract files are present only in this runner workspace.'
+          git -C public status --short .github
+
       - name: Install locked dependencies
         working-directory: public
         run: npm ci
@@ -155,7 +147,7 @@ jobs:
         shell: bash
         run: bash scripts/run-garage-closure-loop.sh
 
-      - name: Re-sync closure head and publish result checkpoint
+      - name: Record closure result
         if: steps.closure.outcome != 'skipped'
         working-directory: public
         shell: bash
@@ -184,10 +176,8 @@ jobs:
           run_id=${GITHUB_RUN_ID}
           EOF
           git add .github/public-garage-status
-          if ! git diff --cached --quiet; then
-            git commit -m "ci: record Garage closure ${MAXIMUM_STATE}"
-            git push origin HEAD:main
-          fi
+          git commit -m "ci: record Garage closure ${MAXIMUM_STATE}"
+          git push origin HEAD:main
           test "$CLOSURE_OUTCOME" = success
 
       - name: Enforce 718 of 718 on all Garage metrics
@@ -231,7 +221,7 @@ jobs:
           run_id=${GITHUB_RUN_ID}
           EOF
           git add .github/public-garage-status
-          git commit -m "ci: record verified Garage 100-percent closure"
+          git commit -m 'ci: record verified Garage 100-percent closure'
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push origin HEAD:main
 
