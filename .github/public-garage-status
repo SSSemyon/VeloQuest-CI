@@ -1,5 +1,6 @@
-phase=snapshot_ready
-source_repo=SSSemyon/VeloQuest
-source_ref=agent/release-closure-0.8.9
+phase=closure_finished
 source_sha=ae7feca9349e41b6b27b521cb34d6d6d5f49d683
+closure_outcome=failure
+maximum=blocked
+public_sha_before_status=6d02ae6abfa183bc591c111515659ec64a34fd98
 run_id=32155270220
