@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { expandFitmentEvidenceDiagnosticsSource } from './garage-fitment-audit-diagnostics-expansion.mjs';
 import { expandFitmentLiteralIdCoverageSource } from './garage-fitment-select-id-expansion.mjs';
 import { expandExactMediaProvenanceSource } from './garage-media-audit-expansion.mjs';
+import { expandModelUpdateParsingSource } from './garage-model-update-audit-expansion.mjs';
 import { expandSpecEvidenceCoverageSource } from './garage-spec-audit-expansion.mjs';
 import {
   discoverLateGarageWaves,
@@ -27,7 +28,8 @@ const baseSource = fs.readFileSync(basePath, 'utf8');
 const lateWaves = discoverLateGarageWaves(schemaRoot);
 if (lateWaves.length === 0) throw new Error('Garage audit did not discover any enrichment wave >= 20');
 
-const withLateWaves = expandGarageAuditSource(baseSource, lateWaves);
+const withModelUpdateParsing = expandModelUpdateParsingSource(baseSource);
+const withLateWaves = expandGarageAuditSource(withModelUpdateParsing, lateWaves);
 const withTrustedMediaCoverage = expandTrustedMediaCoverageSource(withLateWaves);
 const withExactMediaProvenance = expandExactMediaProvenanceSource(withTrustedMediaCoverage);
 const withTrustedSpecEvidence = expandSpecEvidenceCoverageSource(withExactMediaProvenance);
