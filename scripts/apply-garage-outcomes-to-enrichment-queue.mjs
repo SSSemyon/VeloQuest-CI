@@ -19,6 +19,8 @@ const rows = fs.readdirSync(schemaRoot)
   .flatMap((file) => parseNoUpgradeOutcomeRows(fs.readFileSync(path.join(schemaRoot, file), 'utf8'), file));
 const structural = validateNoUpgradeOutcomeRows(rows);
 if (structural.invalid.length) {
+  console.error('Structurally invalid Garage recommendation outcomes:');
+  console.error(JSON.stringify(structural.invalid, null, 2));
   throw new Error(`Refusing to apply ${structural.invalid.length} structurally invalid Garage recommendation outcomes`);
 }
 
@@ -26,6 +28,8 @@ const queue = JSON.parse(fs.readFileSync(queuePath, 'utf8'));
 const config = JSON.parse(fs.readFileSync(path.join(root, 'catalog-harvester', 'config.json'), 'utf8'));
 const official = validateNoUpgradeOutcomeOfficialEvidence(structural.valid, { queue, config });
 if (official.invalid.length) {
+  console.error('Garage recommendation outcomes without official bike-manufacturer evidence:');
+  console.error(JSON.stringify(official.invalid, null, 2));
   throw new Error(`Refusing to apply ${official.invalid.length} Garage recommendation outcomes without official bike-manufacturer evidence`);
 }
 
