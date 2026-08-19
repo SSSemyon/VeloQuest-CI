@@ -82,3 +82,5 @@ jobs:
           git commit -m 'ci: persist strict Garage 718 snapshot'
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push origin HEAD:main
+
+# Retrigger marker: 2026-08-19T09:15Z
