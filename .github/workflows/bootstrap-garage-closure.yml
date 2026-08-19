@@ -178,8 +178,16 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if [ -f .github/garage-invalid-outcomes.json ]; then
+            cp .github/garage-invalid-outcomes.json /tmp/garage-invalid-outcomes.json
+          fi
           git fetch origin main
           git reset --hard origin/main
+          if [ -f /tmp/garage-invalid-outcomes.json ]; then
+            cp /tmp/garage-invalid-outcomes.json .github/public-garage-invalid-outcomes.json
+          else
+            rm -f .github/public-garage-invalid-outcomes.json
+          fi
           if npm run check:garage:maximum >/tmp/garage-maximum.log 2>&1; then
             MAXIMUM_STATE=reached
           else
@@ -195,6 +203,11 @@ jobs:
           run_id=${GITHUB_RUN_ID}
           EOF
           git add .github/public-garage-status
+          if [ -f .github/public-garage-invalid-outcomes.json ]; then
+            git add .github/public-garage-invalid-outcomes.json
+          elif git ls-files --error-unmatch .github/public-garage-invalid-outcomes.json >/dev/null 2>&1; then
+            git rm -f .github/public-garage-invalid-outcomes.json
+          fi
           git commit -m "ci: record Garage closure ${MAXIMUM_STATE}"
           git push origin HEAD:main
           test "$CLOSURE_OUTCOME" = success
