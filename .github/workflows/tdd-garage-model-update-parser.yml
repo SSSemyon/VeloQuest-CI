@@ -20,11 +20,11 @@ jobs:
         with:
           path: public
 
-      - name: Checkout exact private RED checkpoint
+      - name: Checkout exact private GREEN checkpoint
         uses: actions/checkout@v4
         with:
           repository: SSSemyon/VeloQuest
-          ref: 419e2cab3c7cdeba137774cf9a346b7447a22ac6
+          ref: 18b464ac6a50beb94f5e72f7354d9ef8aa0b25ce
           token: ${{ secrets.SOURCE_REPO_TOKEN }}
           persist-credentials: false
           fetch-depth: 1
@@ -48,7 +48,7 @@ jobs:
           TEST_OUTCOME: ${{ steps.parser.outcome }}
         run: |
           set -euo pipefail
-          printf 'source_sha=%s\noutcome=%s\nrun_id=%s\n' '419e2cab3c7cdeba137774cf9a346b7447a22ac6' "$TEST_OUTCOME" "$GITHUB_RUN_ID" > .github/garage-parser-tdd-status
+          printf 'source_sha=%s\noutcome=%s\nrun_id=%s\n' '18b464ac6a50beb94f5e72f7354d9ef8aa0b25ce' "$TEST_OUTCOME" "$GITHUB_RUN_ID" > .github/garage-parser-tdd-status
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add .github/garage-parser-tdd-status
