@@ -45,7 +45,11 @@ export function parseNoUpgradeOutcomeRows(sql, sourceFile = 'unknown.sql') {
       const body = tuple.trim().replace(/^\(/, '').replace(/\)$/, '');
       const values = splitTopLevel(body).map(parseSqlValue);
       if (columns.length !== values.length) {
-        rows.push({ sourceFile, parseError: `${columns.length} columns but ${values.length} values` });
+        rows.push({
+          sourceFile,
+          parseError: `${columns.length} columns but ${values.length} values`,
+          rawTuple: tuple.slice(0, 2000),
+        });
         continue;
       }
       rows.push({ sourceFile, ...Object.fromEntries(columns.map((column, index) => [column, values[index]])) });
