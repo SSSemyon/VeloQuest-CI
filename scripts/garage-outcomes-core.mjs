@@ -36,11 +36,16 @@ function parseSqlValue(raw) {
 }
 
 export function parseNoUpgradeOutcomeRows(sql, sourceFile = 'unknown.sql') {
-  const pattern = /insert\s+into\s+public\.garage_recommendation_outcomes\s*\(([^)]*)\)\s*values\s*([\s\S]*?)(?=\s+on\s+conflict|\s*;)/gi;
   const rows = [];
-  for (const match of sql.matchAll(pattern)) {
+  const cleanSql = sql.replace(/^[ \t]*--.*$/gm, '');
+  const statements = splitTopLevel(cleanSql, ';');
+  const pattern = /insert\s+into\s+public\.garage_recommendation_outcomes\s*\(([^)]*)\)\s*values\s*([\s\S]*?)(?=\s+on\s+conflict|$)/i;
+
+  for (const statement of statements) {
+    const match = statement.match(pattern);
+    if (!match) continue;
     const columns = splitTopLevel(match[1]).map((column) => column.trim());
-    const tuples = splitTopLevel(match[2].replace(/^\s*--.*$/gm, ''));
+    const tuples = splitTopLevel(match[2]);
     for (const tuple of tuples) {
       const body = tuple.trim().replace(/^\(/, '').replace(/\)$/, '');
       const values = splitTopLevel(body).map(parseSqlValue);

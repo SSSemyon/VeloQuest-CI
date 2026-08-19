@@ -75,6 +75,22 @@ test('outcome parser rejects non-evidence rows and queue overlay counts only val
   assert.deepEqual(applied.work_cohorts.recommendation_outcome, ['bike-b', 'bike-c']);
 });
 
+test('outcome parser keeps semicolons inside quoted notes', () => {
+  const sql = `
+    insert into public.garage_recommendation_outcomes
+      (bike_id, scope_key, outcome_type, title, notes, evidence_url, evidence_checked_at, enabled)
+    values
+      ('bike-semicolon', 'cassette_range', 'no_upgrade', 'Диапазон уже на пределе', 'Производитель подтверждает штатную конфигурацию; больший диапазон официально не заявлен.', 'https://manufacturer.example/bike-semicolon', '2026-08-17', true)
+    on conflict (bike_id, scope_key, outcome_type) do update set enabled = excluded.enabled;
+  `;
+  const rows = parseNoUpgradeOutcomeRows(sql, 'semicolon-fixture.sql');
+  const validation = validateNoUpgradeOutcomeRows(rows);
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].bike_id, 'bike-semicolon');
+  assert.match(rows[0].notes, /;/);
+  assert.equal(validation.invalid.length, 0);
+});
+
 test('release catalog gate and standalone audit validate no-upgrade evidence', () => {
   assert.match(queueGate, /applyNoUpgradeOutcomesToQueue/);
   assert.match(queueGate, /outcomeValidation\.invalid/);
