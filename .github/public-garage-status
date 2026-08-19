@@ -1,5 +1,6 @@
-phase=snapshot_ready
-source_repo=SSSemyon/VeloQuest
-source_ref=agent/ci-repair-garage-outcomes-20260819
+phase=closure_finished
 source_sha=beb62ef86de18cf142c4b3abcda0fd36c2916e9c
+closure_outcome=failure
+maximum=blocked
+public_sha_before_status=0ced52f968274fc8ae6d7014d59da6aaab35d49b
 run_id=32285335873
