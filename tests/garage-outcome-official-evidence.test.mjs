@@ -30,6 +30,42 @@ test('no-upgrade official evidence validator accepts the exact bike manufacturer
   assert.deepEqual(result.invalid, []);
 });
 
+test('no-upgrade official evidence validator accepts dual OEM + approved component-manufacturer evidence', () => {
+  const dualEvidenceRow = {
+    ...row,
+    evidence_url: 'https://productinfo.shimano.com/en/product/RD-U4000',
+    notes: 'Exact OEM fitment is confirmed on the bike page. OEM: https://www.specialized.com/us/en/example/p/123',
+  };
+  const result = validateNoUpgradeOutcomeOfficialEvidence([dualEvidenceRow], { queue, config });
+  assert.equal(result.valid.length, 1);
+  assert.deepEqual(result.invalid, []);
+});
+
+test('dual evidence stays fail-closed on missing OEM binding or unapproved component host', () => {
+  const invalidRows = [
+    {
+      ...row,
+      evidence_url: 'https://productinfo.shimano.com/en/product/RD-U4000',
+      notes: 'No exact OEM marker is present here.',
+    },
+    {
+      ...row,
+      evidence_url: 'https://productinfo.shimano.com/en/product/RD-U4000',
+      notes: 'OEM: https://www.trekbikes.com/us/en_US/example/',
+    },
+    {
+      ...row,
+      evidence_url: 'https://example-components.invalid/RD-U4000',
+      notes: 'OEM: https://www.specialized.com/us/en/example/p/123',
+    },
+  ];
+  for (const candidate of invalidRows) {
+    const result = validateNoUpgradeOutcomeOfficialEvidence([candidate], { queue, config });
+    assert.equal(result.valid.length, 0);
+    assert.equal(result.invalid.length, 1);
+  }
+});
+
 test('no-upgrade official evidence validator rejects retailer, forum and another bike brand host', () => {
   for (const evidence_url of [
     'https://www.bike-discount.de/en/example',

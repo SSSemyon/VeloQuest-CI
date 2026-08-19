@@ -1,5 +1,9 @@
 import { isOfficialEvidenceUrl } from '../catalog-harvester/product-evidence-rules.mjs';
 
+const OFFICIAL_COMPONENT_EVIDENCE_HOSTS = new Set([
+  'productinfo.shimano.com',
+]);
+
 function splitTopLevel(value, delimiter = ',') {
   const parts = [];
   let current = '';
@@ -33,6 +37,25 @@ function parseSqlValue(raw) {
   const string = value.match(/^'((?:[^']|'')*)'(?:\s*::[\w\s\[\]]+)?$/s);
   if (string) return string[1].replaceAll("''", "'");
   return value;
+}
+
+function extractOemEvidenceUrl(notes) {
+  if (typeof notes !== 'string') return null;
+  const match = notes.match(/(?:^|\s)OEM:\s*(https:\/\/[^\s]+)/i);
+  return match?.[1]?.replace(/[),.;]+$/u, '') ?? null;
+}
+
+function isApprovedOfficialComponentEvidenceUrl(rawUrl) {
+  try {
+    const url = new URL(rawUrl);
+    if (url.protocol !== 'https:') return false;
+    const hostname = url.hostname.toLowerCase();
+    return [...OFFICIAL_COMPONENT_EVIDENCE_HOSTS].some(
+      (host) => hostname === host || hostname.endsWith(`.${host}`),
+    );
+  } catch {
+    return false;
+  }
 }
 
 export function parseNoUpgradeOutcomeRows(sql, sourceFile = 'unknown.sql') {
@@ -96,9 +119,16 @@ export function validateNoUpgradeOutcomeOfficialEvidence(rows, { queue, config }
   for (const row of rows) {
     const reasons = [];
     const bike = bikesById.get(row?.bike_id);
-    if (!bike) reasons.push(`unknown bike_id ${row?.bike_id ?? 'missing'}`);
-    else if (!isOfficialEvidenceUrl(bike.brand, row?.evidence_url, config)) {
-      reasons.push(`no_upgrade requires official manufacturer evidence for ${bike.brand}`);
+    if (!bike) {
+      reasons.push(`unknown bike_id ${row?.bike_id ?? 'missing'}`);
+    } else if (!isOfficialEvidenceUrl(bike.brand, row?.evidence_url, config)) {
+      const oemEvidenceUrl = extractOemEvidenceUrl(row?.notes);
+      if (!oemEvidenceUrl || !isOfficialEvidenceUrl(bike.brand, oemEvidenceUrl, config)) {
+        reasons.push(`no_upgrade requires official manufacturer evidence for ${bike.brand}`);
+      }
+      if (!isApprovedOfficialComponentEvidenceUrl(row?.evidence_url)) {
+        reasons.push('no_upgrade requires approved official component manufacturer evidence');
+      }
     }
     (reasons.length ? invalid : valid).push(reasons.length ? { row, reasons } : row);
   }
