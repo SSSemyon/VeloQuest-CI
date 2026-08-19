@@ -1,0 +1,84 @@
+name: Capture invalid Garage fitment diagnostics
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/garage-fitment-diagnostics.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veloquest-garage-fitment-diagnostics
+  cancel-in-progress: true
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout sanitized public snapshot
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Run strict Garage audit
+        shell: bash
+        run: |
+          set +e
+          npm run check:garage:maximum > /tmp/garage-audit.log 2>&1
+          echo "audit_exit=$?" >> "$GITHUB_ENV"
+          set -e
+
+      - name: Extract invalid fitment diagnostics
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, pathlib
+          text = pathlib.Path('/tmp/garage-audit.log').read_text('utf-8', errors='replace')
+          decoder = json.JSONDecoder()
+          report = None
+          for index, char in enumerate(text):
+              if char != '{':
+                  continue
+              try:
+                  candidate, _ = decoder.raw_decode(text[index:])
+              except json.JSONDecodeError:
+                  continue
+              if isinstance(candidate, dict) and 'compatibility' in candidate:
+                  report = candidate
+                  break
+          if report is None:
+              raise SystemExit('Garage JSON report not found in audit output')
+          invalid = report.get('compatibility', {}).get('invalidFitmentEvidence', [])
+          payload = {
+              'source_sha': pathlib.Path('.github/public-source-sha').read_text().strip(),
+              'invalid_count': len(invalid),
+              'invalid_fitment_evidence': invalid,
+          }
+          pathlib.Path('.github/garage-invalid-fitments.json').write_text(
+              json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8'
+          )
+          print(f'invalid_fitments={len(invalid)}')
+          if len(invalid) != 8:
+              print('Note: invalid count differs from previous runtime checkpoint; preserving fresh result.')
+          PY
+
+      - name: Commit safe diagnostics
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/garage-invalid-fitments.json
+          git commit -m 'ci: record invalid Garage fitment diagnostics'
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin HEAD:main
