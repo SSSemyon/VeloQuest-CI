@@ -1,0 +1,31 @@
+name: TDD Garage model update parser
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/tdd-garage-model-update-parser.yml
+
+permissions:
+  contents: read
+
+jobs:
+  test-parser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout exact private RED checkpoint
+        uses: actions/checkout@v4
+        with:
+          repository: SSSemyon/VeloQuest
+          ref: 419e2cab3c7cdeba137774cf9a346b7447a22ac6
+          token: ${{ secrets.SOURCE_REPO_TOKEN }}
+          persist-credentials: false
+          fetch-depth: 1
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Run parser regression
+        run: node --test tests/garage-model-update-parser.test.mjs
