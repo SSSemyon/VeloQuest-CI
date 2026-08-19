@@ -26,7 +26,7 @@ jobs:
       GARAGE_CLOSURE_BRANCH: main
       GARAGE_CLOSURE_MAX_PASSES: '12'
       SOURCE_REPO: SSSemyon/VeloQuest
-      SOURCE_REF: agent/release-closure-0.8.9
+      SOURCE_REF: agent/ci-repair-garage-outcomes-20260819
       FALLBACK_SOURCE_SHA: 0801bf0e8a56973a39dd3e66f9bbacb5fe48b956
     steps:
       - name: Checkout public CI repository
